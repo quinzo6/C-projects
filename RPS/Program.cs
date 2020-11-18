@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Simple C# Rock paper scissors project
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

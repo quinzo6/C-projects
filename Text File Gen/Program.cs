@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Generates a text file in the C: directory
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,9 +13,10 @@ namespace Text_File_Gen
     {
         static void Main(string[] args)
         {
-            try {
-                TextWriter tw = new StreamWriter("C:/FuckMyAsshole.txt", true);
-                tw.WriteLine("Fuck Me In The Asshole");
+            try 
+            {
+                TextWriter tw = new StreamWriter("C:/YourNameHere.txt", true);
+                tw.WriteLine("YourTextHere");
                 tw.Close();
                 Console.WriteLine("File Made!");
             }catch(Exception e)

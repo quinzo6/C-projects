@@ -1,4 +1,6 @@
-﻿using System;
+﻿// First brute forcer using a dictionary attack on http://bwapp.bihuo.cn/login.php (Will make improved one in the future)
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
