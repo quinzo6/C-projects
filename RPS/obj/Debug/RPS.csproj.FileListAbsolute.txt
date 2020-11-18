@@ -1,0 +1,7 @@
+C:\Users\dabea\source\repos\RPS\RPS\bin\Debug\RPS.exe.config
+C:\Users\dabea\source\repos\RPS\RPS\bin\Debug\RPS.exe
+C:\Users\dabea\source\repos\RPS\RPS\bin\Debug\RPS.pdb
+C:\Users\dabea\source\repos\RPS\RPS\obj\Debug\RPS.csprojAssemblyReference.cache
+C:\Users\dabea\source\repos\RPS\RPS\obj\Debug\RPS.csproj.CoreCompileInputs.cache
+C:\Users\dabea\source\repos\RPS\RPS\obj\Debug\RPS.exe
+C:\Users\dabea\source\repos\RPS\RPS\obj\Debug\RPS.pdb

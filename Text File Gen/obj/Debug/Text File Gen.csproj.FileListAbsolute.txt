@@ -1,0 +1,7 @@
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\bin\Debug\Text File Gen.exe.config
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\bin\Debug\Text File Gen.exe
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\bin\Debug\Text File Gen.pdb
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\obj\Debug\Text File Gen.csprojAssemblyReference.cache
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\obj\Debug\Text File Gen.csproj.CoreCompileInputs.cache
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\obj\Debug\Text File Gen.exe
+C:\Users\dabea\source\repos\Text File Gen\Text File Gen\obj\Debug\Text File Gen.pdb

@@ -1,0 +1,7 @@
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\obj\Debug\Brute Forcer.csprojAssemblyReference.cache
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\obj\Debug\Brute Forcer.csproj.CoreCompileInputs.cache
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\bin\Debug\Brute Forcer.exe.config
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\bin\Debug\Brute Forcer.exe
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\bin\Debug\Brute Forcer.pdb
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\obj\Debug\Brute Forcer.exe
+C:\Users\dabea\source\repos\Brute Forcer\Brute Forcer\obj\Debug\Brute Forcer.pdb

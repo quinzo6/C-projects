@@ -1,0 +1,7 @@
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\bin\Debug\ipGoBrr.exe.config
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\bin\Debug\ipGoBrr.exe
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\bin\Debug\ipGoBrr.pdb
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\obj\Debug\ipGoBrr.csprojAssemblyReference.cache
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\obj\Debug\ipGoBrr.csproj.CoreCompileInputs.cache
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\obj\Debug\ipGoBrr.exe
+C:\Users\dabea\source\repos\ipGoBrr\ipGoBrr\obj\Debug\ipGoBrr.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipGoBrr", "ipGoBrr\ipGoBrr.csproj", "{0C4C5A9C-C6C0-4335-9C87-5CF16ACFED8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4C5A9C-C6C0-4335-9C87-5CF16ACFED8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4C5A9C-C6C0-4335-9C87-5CF16ACFED8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4C5A9C-C6C0-4335-9C87-5CF16ACFED8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4C5A9C-C6C0-4335-9C87-5CF16ACFED8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4564C885-CF9A-4CFD-A81D-724337D2D9B2}
+	EndGlobalSection
+EndGlobal
