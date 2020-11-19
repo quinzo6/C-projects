@@ -1,4 +1,5 @@
 ﻿// Gets IP of host provider
+// Kinda works but not reall, will improve in future
 
 using System;
 using System.Collections.Generic;
@@ -15,17 +16,17 @@ namespace ipGoBrr
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Local IP Address: " + GetIPAddress(Dns.GetHostName()));
             Console.WriteLine("Google IP:" + GetIPAddress("google.com"));
             Console.ReadLine();
         }
 
-            static IEnumerable<string> GetAddresses()
-            {
-                var host = Dns.GetHostEntry(Dns.GetHostName());
-                return (from ip in host.AddressList where ip.AddressFamily == AddressFamily.InterNetwork select ip.ToString()).ToList();
-            }
+            // static IEnumerable<string> GetAddresses()
+            // {
+            //     var host = Dns.GetHostEntry(Dns.GetHostName());
+            //     return (from ip in host.AddressList where ip.AddressFamily == AddressFamily.InterNetwork select ip.ToString()).ToList();
+            // }
 
+            // Gets IP of the hostname
             static IPAddress GetIPAddress(string hostName)
             {
                 Ping ping = new Ping();
