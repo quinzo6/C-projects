@@ -1,0 +1,1 @@
+I have used rockyou.txt for the dictioanary attack, you can find it https://wiki.skullsecurity.org/Passwords
