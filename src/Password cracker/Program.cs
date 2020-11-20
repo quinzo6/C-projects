@@ -14,18 +14,20 @@ namespace Password_Cracker
     {
         static void Main(string[] args)
         {
-
+            Console.Title = "Password hash cracker: made by quinzo#2426";
             Console.WriteLine(@"                     _             ");
             Console.WriteLine(@"                    | |            ");
             Console.WriteLine(@"  ___ _ __ __ _  ___| | _____ _ __ ");
             Console.WriteLine(@" / __| '__/ _` |/ __| |/ / _ \ '__|");
             Console.WriteLine(@"| (__| | | (_| | (__|   <  __/  |   ");
             Console.WriteLine(@" \___|_|  \__,_|\___|_|\ _\___|_|   ");
+            Console.WriteLine("");
 
             Stopwatch stopwatch = new Stopwatch();
             string Hash = "";
             Console.WriteLine("Enter your md5 Hash: ");
             Hash = Console.ReadLine().ToUpper();
+            int Flag = 0;
             stopwatch.Start();
 
 
@@ -38,6 +40,7 @@ namespace Password_Cracker
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Attempting to crack hash...");
+            Console.WriteLine("");
 
             while(closeLoop == true && (pass = file.ReadLine()) != null)
             {
@@ -51,25 +54,31 @@ namespace Password_Cracker
 
 
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine(pass);
+                    Console.WriteLine("========> " + pass + " <========");
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Cracked Hash = " + pass + "\n\r" + MD5Hash(pass));
                     Console.ForegroundColor = ConsoleColor.Cyan;
-
                     Console.WriteLine("Time elapsed till hash was cracked: " + elapsedtime);
 
                     Console.ResetColor();
                     Console.ReadKey();
+                    Flag = 1;
                     
                     closeLoop = false;
                     file.Close(); //Closes the file stream reader
                 }
-                Count++;
-                Console.Title = "Current non succesful password crack count: " + Count.ToString();
-                Thread.Sleep(1);
+                //Count++;
+                //Console.Title = "Current non succesful password crack count: " + Count.ToString();
+                //Thread.Sleep(1);
             }
             file.Close();
             Console.ReadKey();
+
+            if(Flag == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Password was not found in the list");
+            }
         }
         public static string MD5Hash(string inputString)
         {
